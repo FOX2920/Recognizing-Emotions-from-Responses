@@ -2,9 +2,7 @@
 
 ## Giới thiệu
 
-Ứng dụng này được phát triển để nhận diện cảm xúc từ các phản hồi của sinh viên. Việc này có thể hữu ích trong việc đánh giá sự hài lòng, mức độ thích thú hoặc các cảm xúc khác của sinh viên đối với một dịch vụ hoặc sản phẩm cụ thể.
-
-Ứng dụng sử dụng mô hình học máy đã được đào tạo trước và một vectorizer để chuyển đổi văn bản thành dạng thích hợp cho việc dự đoán cảm xúc.
+Ứng dụng này được phát triển để nhận biết cảm xúc từ phản hồi của sinh viên về cách giảng dạy của giảng viên. Với sự sử dụng của các kỹ thuật xử lý ngôn ngữ tự nhiên và học máy, ứng dụng này có thể dự đoán cảm xúc là tích cực, trung tính hoặc tiêu cực từ câu phản hồi được cung cấp.
 
 ## Cách Sử Dụng
 
