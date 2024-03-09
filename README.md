@@ -4,6 +4,8 @@
 
 Ứng dụng này được phát triển để nhận biết cảm xúc từ phản hồi của sinh viên về cách giảng dạy của giảng viên. Với sự sử dụng của các kỹ thuật xử lý ngôn ngữ tự nhiên và học máy, ứng dụng này có thể dự đoán cảm xúc là tích cực, trung tính hoặc tiêu cực từ câu phản hồi được cung cấp.
 
+Bạn có thể sử dụng thử tại đây : [Demo](https://21522557-bai3.streamlit.app/)
+
 ## Cách Sử Dụng
 
 1. **Nhập Phản Hồi**: Nhập phản hồi từ sinh viên vào ô văn bản.
