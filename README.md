@@ -1,44 +1,40 @@
-# Ứng dụng Nhận Diện Cảm Xúc từ Phản Hồi của Sinh Viên
+# Student Feedback Sentiment Analysis
 
-## Giới thiệu
+## Introduction
 
-Ứng dụng này được phát triển để nhận biết cảm xúc từ phản hồi của sinh viên về cách giảng dạy của giảng viên. Với sự sử dụng của các kỹ thuật xử lý ngôn ngữ tự nhiên và học máy, ứng dụng này có thể dự đoán cảm xúc là tích cực, trung tính hoặc tiêu cực từ câu phản hồi được cung cấp.
+This application is developed to recognize the sentiment from student feedback regarding the teaching methods of instructors. Utilizing natural language processing and machine learning techniques, this application can predict whether the sentiment is positive, neutral, or negative from the provided feedback.
 
-Bạn có thể sử dụng thử tại đây : [Demo](https://21522557-bai3.streamlit.app/)
+You can try it here: [Demo](https://21522557-bai3.streamlit.app/)
 
-## Cách Sử Dụng
+## How to Use
 
-1. **Nhập Phản Hồi**: Nhập phản hồi từ sinh viên vào ô văn bản.
+1. **Enter Feedback**: Input student feedback into the text box.
 
-2. **Dự Đoán Cảm Xúc**: Nhấn vào nút "Dự đoán cảm xúc" để xem kết quả.
+2. **Predict Sentiment**: Click the "Predict Sentiment" button to see the result.
 
-3. **Xem Kết Quả**: Kết quả sẽ hiển thị với một trong ba nhãn cảm xúc: Tích cực, Trung tính hoặc Tiêu cực.
+3. **View Result**: The result will be displayed with one of the three sentiment labels: Positive, Neutral, or Negative.
 
-## Cài Đặt và Chạy
+## Installation and Running
 
-1. **Cài Đặt Streamlit**: Đảm bảo bạn đã cài đặt thư viện Streamlit. Nếu chưa, bạn có thể cài đặt bằng cách sử dụng pip:
-
-    ```
+1. **Install Streamlit**: Ensure you have the Streamlit library installed. If not, you can install it using pip:
+    ```bash
     pip install streamlit
     ```
 
-2. **Tải Dữ Liệu và Mô Hình**: Đảm bảo rằng bạn đã tải dữ liệu và mô hình cần thiết cho ứng dụng. Các tệp tin cần được đặt trong cùng thư mục với script Python (`app.py`). Trong trường hợp này, cần tải:
+2. **Download Data and Model**: Ensure you have downloaded the necessary data and models for the application. The files should be placed in the same directory as the Python script (`app.py`). In this case, you need to download:
+    - `svm_model.pkl`: The trained machine learning model.
+    - `tf_idf.pkl`: The vectorizer used to transform the text into an appropriate format.
 
-    - Tệp tin `svm_model.pkl`: Mô hình máy học đã được đào tạo.
-    - Tệp tin `tf_idf.pkl`: Vectorizer được sử dụng để chuyển đổi văn bản thành dạng thích hợp.
-
-3. **Chạy Ứng Dụng**: Mở terminal, di chuyển đến thư mục chứa script Python và chạy lệnh:
-
-    ```
+3. **Run the Application**: Open the terminal, navigate to the directory containing the Python script, and run the command:
+    ```bash
     streamlit run app.py
     ```
 
-4. **Sử Dụng Ứng Dụng**: Một cửa sổ trình duyệt mới sẽ mở và hiển thị giao diện người dùng của ứng dụng. Bạn có thể nhập phản hồi và nhấn nút để dự đoán cảm xúc.
+4. **Use the Application**: A new browser window will open, displaying the application's user interface. You can enter feedback and click the button to predict the sentiment.
 
-## Yêu Cầu
+## Requirements
 
 - Python 3.x
 - Streamlit
 - scikit-learn
 - pyvi
-
